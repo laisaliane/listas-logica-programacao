@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,7 +34,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -43,6 +47,20 @@
 					"id" : "Atv1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Atv1-Debug-772215ebbd51f26b2110.json",
 					"name" : "Atv1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv2-Debug-068ffceb2d9d284e80e5.json",
+					"name" : "Atv2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv3-Debug-a1f483e5ee00f45783cc.json",
+					"name" : "Atv3",
 					"projectIndex" : 0
 				},
 				{
