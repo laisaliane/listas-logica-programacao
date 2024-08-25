@@ -5,5 +5,6 @@ C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build
 C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug/CMakeFiles/Atv4.dir
 C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug/CMakeFiles/Atv5.dir
 C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug/CMakeFiles/Atv6.dir
+C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug/CMakeFiles/Atv7.dir
 C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug/CMakeFiles/rebuild_cache.dir
