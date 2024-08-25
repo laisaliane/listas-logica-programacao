@@ -6,4 +6,4 @@ set(CMAKE_C_STANDARD 23)
 add_executable(listas_logica_programacao main.c)
 
 # Nome do executável + espaçco + caminho do arquivo
-add_executable(xyz lista-1/teste-1.c)
+add_executable(Atv1 lista-1/Atv1.c)
