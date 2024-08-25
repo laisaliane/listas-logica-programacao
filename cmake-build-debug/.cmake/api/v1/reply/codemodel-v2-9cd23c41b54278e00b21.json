@@ -24,7 +24,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -48,7 +49,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -115,6 +117,13 @@
 					"id" : "Atv9::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Atv9-Debug-1da1cf7559f49f090e57.json",
 					"name" : "Atv9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "atv10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-atv10-Debug-ed10cd50cb0d71b32cbf.json",
+					"name" : "atv10",
 					"projectIndex" : 0
 				},
 				{

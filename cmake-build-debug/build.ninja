@@ -370,6 +370,39 @@ build Atv9.exe: C_EXECUTABLE_LINKER__Atv9_Debug CMakeFiles/Atv9.dir/lista-1/Atv9
   TARGET_IMPLIB = libAtv9.dll.a
   TARGET_PDB = Atv9.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target atv10
+
+
+#############################################
+# Order-only phony target for atv10
+
+build cmake_object_order_depends_target_atv10: phony || CMakeFiles/atv10.dir
+
+build CMakeFiles/atv10.dir/lista-1/atv10.c.obj: C_COMPILER__atv10_unscanned_Debug C$:/Users/Lucio$ Santana/Documents/workspace/listas-logica-programacao/lista-1/atv10.c || cmake_object_order_depends_target_atv10
+  DEP_FILE = CMakeFiles\atv10.dir\lista-1\atv10.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\atv10.dir
+  OBJECT_FILE_DIR = CMakeFiles\atv10.dir\lista-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target atv10
+
+
+#############################################
+# Link the executable atv10.exe
+
+build atv10.exe: C_EXECUTABLE_LINKER__atv10_Debug CMakeFiles/atv10.dir/lista-1/atv10.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\atv10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = atv10.exe
+  TARGET_IMPLIB = libatv10.dll.a
+  TARGET_PDB = atv10.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -414,6 +447,8 @@ build Atv8: phony Atv8.exe
 
 build Atv9: phony Atv9.exe
 
+build atv10: phony atv10.exe
+
 build listas_logica_programacao: phony listas_logica_programacao.exe
 
 # =============================================================================
@@ -424,7 +459,7 @@ build listas_logica_programacao: phony listas_logica_programacao.exe
 #############################################
 # Folder: C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug
 
-build all: phony listas_logica_programacao.exe Atv1.exe Atv2.exe Atv3.exe Atv4.exe Atv5.exe Atv6.exe Atv7.exe Atv8.exe Atv9.exe
+build all: phony listas_logica_programacao.exe Atv1.exe Atv2.exe Atv3.exe Atv4.exe Atv5.exe Atv6.exe Atv7.exe Atv8.exe Atv9.exe atv10.exe
 
 # =============================================================================
 # Built-in targets
