@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Atv6.exe"
+			"path" : "Atv1.exe"
 		},
 		{
-			"path" : "Atv6.pdb"
+			"path" : "Atv1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -52,11 +52,12 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "Atv6::@6890427a1f51a3e7e1df",
+	"id" : "Atv1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +77,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Atv6",
-	"nameOnDisk" : "Atv6.exe",
+	"name" : "Atv1",
+	"nameOnDisk" : "Atv1.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,7 +90,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -98,7 +100,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "lista-1/Atv6.c",
+			"path" : "lista-1/Atv1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lista-1/Atv8.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -88,6 +88,12 @@ build CMakeFiles/Atv1.dir/lista-1/Atv1.c.obj: C_COMPILER__Atv1_unscanned_Debug C
   OBJECT_DIR = CMakeFiles\Atv1.dir
   OBJECT_FILE_DIR = CMakeFiles\Atv1.dir\lista-1
 
+build CMakeFiles/Atv1.dir/lista-1/Atv8.c.obj: C_COMPILER__Atv1_unscanned_Debug C$:/Users/Lucio$ Santana/Documents/workspace/listas-logica-programacao/lista-1/Atv8.c || cmake_object_order_depends_target_Atv1
+  DEP_FILE = CMakeFiles\Atv1.dir\lista-1\Atv8.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Atv1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Atv1.dir\lista-1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Atv1
@@ -96,7 +102,7 @@ build CMakeFiles/Atv1.dir/lista-1/Atv1.c.obj: C_COMPILER__Atv1_unscanned_Debug C
 #############################################
 # Link the executable Atv1.exe
 
-build Atv1.exe: C_EXECUTABLE_LINKER__Atv1_Debug CMakeFiles/Atv1.dir/lista-1/Atv1.c.obj
+build Atv1.exe: C_EXECUTABLE_LINKER__Atv1_Debug CMakeFiles/Atv1.dir/lista-1/Atv1.c.obj CMakeFiles/Atv1.dir/lista-1/Atv8.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Atv1.dir
@@ -304,6 +310,39 @@ build Atv7.exe: C_EXECUTABLE_LINKER__Atv7_Debug CMakeFiles/Atv7.dir/lista-1/Atv7
   TARGET_IMPLIB = libAtv7.dll.a
   TARGET_PDB = Atv7.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Atv8
+
+
+#############################################
+# Order-only phony target for Atv8
+
+build cmake_object_order_depends_target_Atv8: phony || CMakeFiles/Atv8.dir
+
+build CMakeFiles/Atv8.dir/lista-1/Atv8.c.obj: C_COMPILER__Atv8_unscanned_Debug C$:/Users/Lucio$ Santana/Documents/workspace/listas-logica-programacao/lista-1/Atv8.c || cmake_object_order_depends_target_Atv8
+  DEP_FILE = CMakeFiles\Atv8.dir\lista-1\Atv8.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Atv8.dir
+  OBJECT_FILE_DIR = CMakeFiles\Atv8.dir\lista-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Atv8
+
+
+#############################################
+# Link the executable Atv8.exe
+
+build Atv8.exe: C_EXECUTABLE_LINKER__Atv8_Debug CMakeFiles/Atv8.dir/lista-1/Atv8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Atv8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Atv8.exe
+  TARGET_IMPLIB = libAtv8.dll.a
+  TARGET_PDB = Atv8.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -344,6 +383,8 @@ build Atv6: phony Atv6.exe
 
 build Atv7: phony Atv7.exe
 
+build Atv8: phony Atv8.exe
+
 build listas_logica_programacao: phony listas_logica_programacao.exe
 
 # =============================================================================
@@ -354,7 +395,7 @@ build listas_logica_programacao: phony listas_logica_programacao.exe
 #############################################
 # Folder: C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug
 
-build all: phony listas_logica_programacao.exe Atv1.exe Atv2.exe Atv3.exe Atv4.exe Atv5.exe Atv6.exe Atv7.exe
+build all: phony listas_logica_programacao.exe Atv1.exe Atv2.exe Atv3.exe Atv4.exe Atv5.exe Atv6.exe Atv7.exe Atv8.exe
 
 # =============================================================================
 # Built-in targets
