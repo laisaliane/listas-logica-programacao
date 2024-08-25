@@ -9,6 +9,6 @@ int main () {
     scanf("%d", &n2);
 
     soma = n1 + n2;
-    printf("A soma desses dois numeros e igual a: ", soma);
+    printf("A soma desses dois numeros e igual a: %d \n", soma);
 
 }
