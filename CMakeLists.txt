@@ -11,3 +11,5 @@ add_executable(Atv1 lista-1/Atv1.c)
 add_executable(Atv2 lista-1/Atv2.c)
 
 add_executable(Atv3 lista-1/Atv3.c)
+
+add_executable(Atv4 lista-1/Atv4.c)

@@ -172,6 +172,39 @@ build Atv3.exe: C_EXECUTABLE_LINKER__Atv3_Debug CMakeFiles/Atv3.dir/lista-1/Atv3
   TARGET_IMPLIB = libAtv3.dll.a
   TARGET_PDB = Atv3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Atv4
+
+
+#############################################
+# Order-only phony target for Atv4
+
+build cmake_object_order_depends_target_Atv4: phony || CMakeFiles/Atv4.dir
+
+build CMakeFiles/Atv4.dir/lista-1/Atv4.c.obj: C_COMPILER__Atv4_unscanned_Debug C$:/Users/Lucio$ Santana/Documents/workspace/listas-logica-programacao/lista-1/Atv4.c || cmake_object_order_depends_target_Atv4
+  DEP_FILE = CMakeFiles\Atv4.dir\lista-1\Atv4.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Atv4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Atv4.dir\lista-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Atv4
+
+
+#############################################
+# Link the executable Atv4.exe
+
+build Atv4.exe: C_EXECUTABLE_LINKER__Atv4_Debug CMakeFiles/Atv4.dir/lista-1/Atv4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Atv4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Atv4.exe
+  TARGET_IMPLIB = libAtv4.dll.a
+  TARGET_PDB = Atv4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -204,6 +237,8 @@ build Atv2: phony Atv2.exe
 
 build Atv3: phony Atv3.exe
 
+build Atv4: phony Atv4.exe
+
 build listas_logica_programacao: phony listas_logica_programacao.exe
 
 # =============================================================================
@@ -214,7 +249,7 @@ build listas_logica_programacao: phony listas_logica_programacao.exe
 #############################################
 # Folder: C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug
 
-build all: phony listas_logica_programacao.exe Atv1.exe Atv2.exe Atv3.exe
+build all: phony listas_logica_programacao.exe Atv1.exe Atv2.exe Atv3.exe Atv4.exe
 
 # =============================================================================
 # Built-in targets

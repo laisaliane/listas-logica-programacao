@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -61,6 +63,13 @@
 					"id" : "Atv3::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Atv3-Debug-a1f483e5ee00f45783cc.json",
 					"name" : "Atv3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv4-Debug-8d40fedf8736ccd7be77.json",
+					"name" : "Atv4",
 					"projectIndex" : 0
 				},
 				{
