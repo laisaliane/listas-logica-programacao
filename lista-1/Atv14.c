@@ -1,12 +1,21 @@
 #include <stdio.h>
-int main () {
-    int a,b;
-    printf("Informe o valor: \n");
-    scanf("%d", &a);
-    printf("Informe outro valor: \n");
-    scanf("%d", &b);
 
-    printf("os valores informados sao: %d %d \n",a,b);
-    printf("os valores informados sao: %d %d",b,a);
+int main () {
+
+    int caixaA, caixaB, caixaC;
+
+    printf("Qual o valor da caixa A? \n");
+    scanf("%d", &caixaA);
+
+    printf("Qual o valor da  caixa B? \n");
+    scanf("%d", &caixaB);
+
+    printf(" A caixa A tinha: %d e a caixa B tinha: %d \n", caixaA, caixaB);
+
+    caixaC = caixaA;
+    caixaA = caixaB;
+    caixaB = caixaC;
+
+    printf("Apos a troca dos conteudos a caixa A passou a ter: %d e a caixa B passou a ter: %d", caixaA, caixaB);
 
 }
