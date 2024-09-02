@@ -9,6 +9,7 @@ int main () {
     printf("Informe o terceiro numero: \n");
     scanf("%d",&c);
 
+    // Não é assim que se calculá média.
     s = (a+b+c)/2;
 
     printf("A media desses numeros e igual a: %d",s);
