@@ -1,10 +1,21 @@
 #include <stdio.h>
 
+/*
+    Informe um número / Informe outro número. Isso não são boas mensagens. Tem que ter capricho até no mínimo
+*/
 int main () {
     int a, b, div;
-    printf("Informe um numero: \n");
+
+    printf("**********************************\n");
+    printf("*    Divisor de Dois Números     *\n");
+    printf("**********************************\n");
+
+
+    //printf("Informe um numero: \n");
+    printf("Informe o Divisor: \n");
     scanf("%d",&a);
-    printf("Informe outro numero: \n");
+    //printf("Informe outro numero: \n");
+    printf("Informe o Dividendo: \n");
     scanf("%d", &b);
 
     div = a / b;
