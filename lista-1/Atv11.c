@@ -13,6 +13,8 @@
 int main () {
     float reais, dolar, cambio;
 
+    printf("Conversao de Moeda \n")
+    printf("******************************\n");
     printf("Informe quanto deseja trocar para reais: \n");
     scanf("%f",&dolar);
 

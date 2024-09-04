@@ -4,6 +4,7 @@ int main () {
     float raio, pi, area;
 
     printf("Area de um Circulo \n");
+    printf("******************************\n");
     printf("Informe o valor equivalente ao raio: \n");
     scanf("%f", &raio);
 

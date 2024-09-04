@@ -4,6 +4,7 @@ int main() {
     int valor1, valor2, Sub;
 
     printf("Subtraindo dois numeros inteiros \n");
+    printf("******************************\n");
     printf("Informe o primeiro numero: ");
     scanf("%d", &valor1);
     printf("Informe o segundo numero: " );

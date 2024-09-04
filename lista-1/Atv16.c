@@ -1,10 +1,13 @@
 #include <math.h>
 #include <stdio.h>
 int main () {
-    int c,v;
-    printf("Informe o valor: \n");
-    scanf("%d", &c);
-    v = c*c*c;
+    int arest,vol;
 
-    printf("O volume do triangulo e: %d", v);
+    printf("Volume de um Cubo \n");
+    printf("******************************\n");
+    printf("Informe o valor: \n");
+    scanf("%d", &arest);
+    vol = arest * arest * arest;
+
+    printf("O volume do triangulo e: %d", vol);
 }

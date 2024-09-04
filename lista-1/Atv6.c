@@ -4,6 +4,7 @@ int main () {
     int base, alt, area;
 
     printf("Area de um Retangulo \n");
+    printf("******************************\n");
     printf ("Informe o valor da base: \n");
     scanf("%d", &base);
     printf("Informe o valor da altura: \n");

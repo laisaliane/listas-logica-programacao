@@ -2,12 +2,14 @@
 
 int main () {
 
-    float p, t;
+    float preco, desc;
 
+    printf("Calculo de Desconto \n");
+    printf("******************************\n");
     printf("Qual o valor do produto? \n");
-    scanf("%f",&p);
+    scanf("%f",&preco);
 
-    t = p - (10%100);
+    desc = preco - (10%100);
 
-    printf("O preco final do produto equivale a: %.2f", t);
+    printf("O preco final do produto equivale a: %.2f", desc);
 }
