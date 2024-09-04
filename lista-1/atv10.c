@@ -1,14 +1,16 @@
 #include <stdio.h>
 
 int main () {
-    float imc, p, a;
+    float imc, peso, alt;
 
+    printf("Calculo do IMC \n");
+    printf("******************************\n");
     printf("Informe o seu peso: \n");
-    scanf("%f", &p);
+    scanf("%f", &peso);
     printf("Informe a altura: \n");
-    scanf("%f", &a);
+    scanf("%f", &alt);
 
-    imc = p / (a * a);
+    imc = peso / (alt * alt);
 
     printf("O IMC e de: %.2f", imc);
 }

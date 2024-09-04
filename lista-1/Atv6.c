@@ -1,13 +1,15 @@
 #include <stdio.h>
 
 int main () {
-    int b, h, a;
+    int base, alt, area;
 
+    printf("Area de um Retangulo \n");
+    printf("******************************\n");
     printf ("Informe o valor da base: \n");
-    scanf("%d", &b);
+    scanf("%d", &base);
     printf("Informe o valor da altura: \n");
-    scanf("%d", &h);
+    scanf("%d", &alt);
 
-    a = b * h;
-    printf("A area do retangulo e o equivalente a: %d \n", a);
+    area = base * alt;
+    printf("A area do retangulo e o equivalente a: %d \n", area);
 }

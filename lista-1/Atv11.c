@@ -11,15 +11,17 @@
     Corrija isso aqui e em todas as outras atividades;
 */
 int main () {
-    float r, d, c;
+    float reais, dolar, cambio;
 
+    printf("Conversao de Moeda \n")
+    printf("******************************\n");
     printf("Informe quanto deseja trocar para reais: \n");
-    scanf("%f",&d);
+    scanf("%f",&dolar);
 
-    r = 5.50;
-    c = d * r;
+    reais = 5.50;
+    cambio = dolar * reais;
 
-    printf("Voce tera em reais R$ %.2f", c);
+    printf("Voce tera em reais R$ %.2f", cambio);
 
 
 }
