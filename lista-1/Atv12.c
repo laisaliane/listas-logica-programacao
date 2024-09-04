@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 int main () {
-    int numb1,numb2,numb3,soma;
-
-    printf("Calculo de Media Aritmetica");
-    printf("******************************\n");
+    int a,b,c,s;
     printf("Informe o primeiro numero: \n");
-    scanf("%d",&numb1);
+    scanf("%d",&a);
     printf("Informe o Segundo numero: \n");
-    scanf("%d",&numb2);
+    scanf("%d",&b);
     printf("Informe o terceiro numero: \n");
-    scanf("%d",&numb3);
+    scanf("%d",&c);
 
     // Não é assim que se calculá média.
-    soma = (numb1+numb2+numb3)/3;
+    s = (a+b+c)/2;
 
-    printf("A media desses numeros e igual a: %d",soma);
+    printf("A media desses numeros e igual a: %d",s);
 
 }

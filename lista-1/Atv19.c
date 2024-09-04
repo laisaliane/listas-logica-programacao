@@ -1,12 +1,9 @@
 #include <stdio.h>
 int main () {
-    int metros,cent;
-
-    printf("Conversao de Metros para Centimetros \ n");
-    printf("******************************\n");
+    int m,c;
     printf("Informe a medida em metros: \n");
-    scanf("%d", &metros);
-    cent = metros * 100;
-    printf("O valor em centimetros equivale a: %d", cent);
+    scanf("%d", &m);
+    c = m * 100;
+    printf("O valor em centimetros equivale a: %d", c);
 
 }

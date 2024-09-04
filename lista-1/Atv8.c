@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 int main () {
-    float raio, pi, area;
+    float r, pi, a;
 
-    printf("Area de um Circulo \n");
-    printf("******************************\n");
     printf("Informe o valor equivalente ao raio: \n");
-    scanf("%f", &raio);
+    scanf("%f", &r);
 
     pi = 3.14;
-    area = pi * (raio*raio);
+    a = pi * (r*r);
 
-    printf("A area do circulo equivale a: %.2f. \n", area);
+    printf("A area do circulo equivale a: %.2f. \n", a);
 
 }

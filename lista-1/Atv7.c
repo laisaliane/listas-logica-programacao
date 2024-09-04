@@ -1,18 +1,16 @@
 #include <stdio.h>
 
 int main () {
-    int base, alt, area, peri;
+    int b, h, a, p;
 
-    printf("Perimetro de um Retangulo \n");
-    printf("******************************\n");
     printf("Informe o valor da base: \n");
-    scanf("%d", &base);
+    scanf("%d", &b);
     printf("Informe o valor para a altura: \n");
-    scanf("%d", &alt);
+    scanf("%d", &h);
 
-    area = base * alt;
-    peri = 2 *(base*alt);
-    printf("A area do retangulo equivale a: %d \n", area);
-    printf("E o perimetro e: %d \ n", peri);
+    a = b * h;
+    p = 2 *(b*h);
+    printf("A area do retangulo equivale a: %d \n", a);
+    printf("E o perimetro e: %d \ n", p);
 
 }

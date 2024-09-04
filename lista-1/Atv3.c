@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int valor1, valor2, Sub;
+    int n1, n2, Sub;
 
-    printf("Subtraindo dois numeros inteiros \n");
-    printf("******************************\n");
     printf("Informe o primeiro numero: ");
-    scanf("%d", &valor1);
+    scanf("%d", &n1);
     printf("Informe o segundo numero: " );
-    scanf("%d", &valor2);
+    scanf("%d", &n2);
 
-    Sub = valor1 - valor2;
+    Sub = n1 - n2;
     printf("A Subtracao desses dois numeros e igual a: %d \n", Sub);
 }
