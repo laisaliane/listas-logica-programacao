@@ -6,6 +6,7 @@ int main () {
 
     printf("Troca de Valores\n");
     printf("******************************\n");
+
     printf("Qual o valor da caixa A? \n");
     scanf("%d", &caixaA);
 

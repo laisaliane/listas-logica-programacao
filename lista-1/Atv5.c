@@ -11,10 +11,10 @@ int main () {
     printf("**********************************\n");
 
 
-    //printf("Informe um numero: \n");
+
     printf("Informe o Divisor: \n");
     scanf("%d",&a);
-    //printf("Informe outro numero: \n");
+
     printf("Informe o Dividendo: \n");
     scanf("%d", &b);
 
