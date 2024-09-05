@@ -5,8 +5,10 @@ int main () {
 
     printf("Calculo do IMC \n");
     printf("******************************\n");
+
     printf("Informe o seu peso: \n");
     scanf("%f", &peso);
+
     printf("Informe a altura: \n");
     scanf("%f", &alt);
 
