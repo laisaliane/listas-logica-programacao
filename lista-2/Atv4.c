@@ -2,26 +2,26 @@
 
 int main () {
 
-    int varA, varB, SubAB, varC;
+    int primeironumero, segundonumero, reservanumero;
 
-    printf("Subtraindo variaveis \n");
+    printf("Subtraindo numeros inteiros \n");
     printf("--------------------------- \n");
 
-    printf("Informe a variavel A \n");
-    scanf("%d", &varA);
+    printf("Informe o primeiro numero: \n");
+    scanf("%d", &primeironumero);
 
-    printf("Informe a variavel B \n");
-    scanf("%d", &varB);
+    printf("Informe o segundo numero: \n");
+    scanf("%d", &segundonumero);
 
-    SubAB = varA - varB;
+    reservanumero = primeironumero - segundonumero;
 
-     printf(" A subtracao entre as variaveis A e B resultam no valor: %d \n", SubAB);
+     printf(" A subtracao entre o primeiro e segundo numero resultam no valor: %d \n", reservanumero);
 
-    varC = varA;
-    varA = varB;
-    varB = varC;
+    reservanumero = primeironumero;
+    primeironumero = segundonumero;
+    segundonumero = reservanumero;
 
-    SubAB = varA - varB;
+    reservanumero = primeironumero - segundonumero;
 
-    printf("A subtracao entre o inverso das variaveis A e B resultam no valor: %d \n", SubAB);
+    printf("A subtracao entre o inverso dos numeros informados resultam no valor: %d \n", reservanumero);
 }

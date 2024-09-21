@@ -16,12 +16,12 @@ int main () {
     printf("Informe a unidade: \n");
     scanf("%d ", &uni);
 
+    num = uni;
     uni = cent;
-    cent = dez;
-    dez = uni;
+    cent = num;
 
     printf("os nunmeros digitados foram: %d , %d e %d \n", cent, dez, uni);
-    printf("E inversamente ficam: %d , %d e %d", dez, cent, num);
+    printf("E inversamente ficam: %d , %d e %d", cent, dez, uni);
 
 
 
