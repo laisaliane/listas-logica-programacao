@@ -1,28 +1,28 @@
 #include <stdio.h>
-
+// ler numero; descobrir como quebrar o numero; inverter//
 int main () {
 
-    int uni, dez, cent, num;
+    int uni, dez, cent, numero, auxnumero;
 
     printf("Invertendo os algarismos \n");
     printf("--------------------------- \n");
 
-    printf("Informe a centena: \n");
-    scanf("%d ", &cent);
+    printf("Informe um numero com 3 digitos: \n");
+    scanf("%d ", &numero);
 
-    printf("Informe a dezena: \n");
-    scanf("%d ", &dez);
+    cent = numero / 100;
+    dez = (numero % 100) / 10 ;
+    uni = numero % 10;
 
-    printf("Informe a unidade: \n");
-    scanf("%d ", &uni);
+    printf("unidade e %d \n", uni);
+    printf("dezena e %d \n", dez);
+    printf("centena e %d \n", cent);
 
-    num = uni;
+    auxnumero = uni;
     uni = cent;
-    cent = num;
-
-    printf("os nunmeros digitados foram: %d , %d e %d \n", cent, dez, uni);
-    printf("E inversamente ficam: %d , %d e %d", cent, dez, uni);
+    cent = auxnumero;
+    dez = dez;
 
 
-
+    printf("O inverso do numero inforado e: %d %d %d \n", cent, dez, uni);
 }
