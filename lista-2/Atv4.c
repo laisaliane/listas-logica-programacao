@@ -2,7 +2,7 @@
 
 int main () {
 
-    int primeironumero, segundonumero, reservanumero;
+    int primeironumero, segundonumero, auxnumero;
 
     printf("Subtraindo numeros inteiros \n");
     printf("--------------------------- \n");
@@ -13,15 +13,15 @@ int main () {
     printf("Informe o segundo numero: \n");
     scanf("%d", &segundonumero);
 
-    reservanumero = primeironumero - segundonumero;
+    primeironumero = primeironumero - segundonumero;
 
-     printf(" A subtracao entre o primeiro e segundo numero resultam no valor: %d \n", reservanumero);
+    printf(" A subtracao entre o primeiro e segundo numero resultam no valor: %d \n", primeironumero);
 
-    reservanumero = primeironumero;
+    auxnumero = primeironumero;
     primeironumero = segundonumero;
-    segundonumero = reservanumero;
+    segundonumero = auxnumero;
 
-    reservanumero = primeironumero - segundonumero;
+    primeironumero = primeironumero - segundonumero;
 
-    printf("A subtracao entre o inverso dos numeros informados resultam no valor: %d \n", reservanumero);
+    printf("A subtracao entre o inverso dos numeros informados resultam no valor: %d \n", primeironumero);
 }
