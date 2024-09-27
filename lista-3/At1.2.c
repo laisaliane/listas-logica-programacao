@@ -22,4 +22,5 @@ int main () {
     printf("O dobro do inverso desse numero equivale a: %d \n", numero * 2);
 
 
+
 }
