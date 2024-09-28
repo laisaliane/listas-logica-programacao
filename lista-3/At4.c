@@ -7,7 +7,7 @@ int main () {
 
     int pontoA, pontoB, pontoC, delta, raiz1, raiz2, teste;
 
-    printf("Nao consegui pensar num titulo bom: \n");
+    printf("Encontrando as raizes: \n");
     printf("----------------------------------  \n");
 
     printf("Informe o valor do ponto A: \n");
