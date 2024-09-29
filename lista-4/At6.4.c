@@ -1,3 +1,8 @@
-//
-// Created by Lucio Santana on 28/09/2024.
-//
+#include <stdio.h>
+
+int main () {
+    printf("Calculadora Simples \n");
+    printf("++++++++++++++++++++++++++++++++++ \n");
+
+
+}
