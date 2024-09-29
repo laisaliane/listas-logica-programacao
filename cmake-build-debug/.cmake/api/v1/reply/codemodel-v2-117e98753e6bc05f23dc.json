@@ -1,0 +1,447 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "listas_logica_programacao",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "At1.2.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At1.2.3-Debug-9d26ec26d3af28373e31.json",
+					"name" : "At1.2.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At1.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At1.3-Debug-a17c4c9a017da9f141f0.json",
+					"name" : "At1.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At1.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At1.4-Debug-f86201b4d94345919364.json",
+					"name" : "At1.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At10.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At10.4-Debug-9afd46998218f070b16a.json",
+					"name" : "At10.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At2.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At2.3-Debug-cb3396b6802a88f4c73d.json",
+					"name" : "At2.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At2.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At2.4-Debug-f6499f710921d696dd21.json",
+					"name" : "At2.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At3.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At3.3-Debug-389374b16178d9cf5298.json",
+					"name" : "At3.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At3.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At3.4-Debug-a2cd031fa432a373a504.json",
+					"name" : "At3.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At4.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At4.3-Debug-ea9627e56696843ccf8b.json",
+					"name" : "At4.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At4.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At4.4-Debug-fbcfaaa2225521a39e86.json",
+					"name" : "At4.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At5.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At5.4-Debug-72f4cea9ae17facaec21.json",
+					"name" : "At5.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At6.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At6.4-Debug-5356f5fda55d401eb996.json",
+					"name" : "At6.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At7.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At7.4-Debug-aaa79529948740c943d5.json",
+					"name" : "At7.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At8.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At8.4-Debug-5d238b42a40e0bc08917.json",
+					"name" : "At8.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "At9.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-At9.4-Debug-ae74d20c64d5ce05c0be.json",
+					"name" : "At9.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv1-Debug-3fa4808dc5a50339ee95.json",
+					"name" : "Atv1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv11-Debug-ae9ea7c3360ff3c5a518.json",
+					"name" : "Atv11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv12-Debug-7536963db6249b55306c.json",
+					"name" : "Atv12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv13::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv13-Debug-34aad87732db4b2657a5.json",
+					"name" : "Atv13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv14::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv14-Debug-3291f08e065da5a15103.json",
+					"name" : "Atv14",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv15::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv15-Debug-56af4483017fbce5a5aa.json",
+					"name" : "Atv15",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv16-Debug-7ee5a96275650a2658fb.json",
+					"name" : "Atv16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv17::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv17-Debug-7ad0db7d2b3bf4d1298a.json",
+					"name" : "Atv17",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv18::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv18-Debug-0c160af4c6297d642147.json",
+					"name" : "Atv18",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv19::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv19-Debug-01d68cf302adef5b3125.json",
+					"name" : "Atv19",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv2-Debug-baeb65df1f30ce7874be.json",
+					"name" : "Atv2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv2.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv2.1-Debug-32babb176740de63e89f.json",
+					"name" : "Atv2.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv2.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv2.2-Debug-5339b380b4573f4c09bf.json",
+					"name" : "Atv2.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv20::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv20-Debug-15511d4ae8f383f03fc6.json",
+					"name" : "Atv20",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv3-Debug-b218c6b40f96ee2177c5.json",
+					"name" : "Atv3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv3.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv3.2-Debug-0effb50d81c4b4faa3f1.json",
+					"name" : "Atv3.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv4-Debug-03447c59610d9b71be43.json",
+					"name" : "Atv4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv4.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv4.2-Debug-62105670f34ec588fffe.json",
+					"name" : "Atv4.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv5-Debug-d1a6f4892cb1f4d4b7a4.json",
+					"name" : "Atv5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv5.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv5.2-Debug-a92f4cdcbac7353ab24f.json",
+					"name" : "Atv5.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv6-Debug-b137d1de97fa79a22177.json",
+					"name" : "Atv6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv6.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv6.2-Debug-ba477324c7c3fcae92e7.json",
+					"name" : "Atv6.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv7-Debug-aece9717d5e15becbca1.json",
+					"name" : "Atv7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv7.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv7.2-Debug-8f6eba8d4506fc06fafc.json",
+					"name" : "Atv7.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv8-Debug-6ff779f865007c9e943a.json",
+					"name" : "Atv8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Atv9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Atv9-Debug-bc1d1a4a7a7e1f435f93.json",
+					"name" : "Atv9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "atv10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-atv10-Debug-33c5e6328047567939b4.json",
+					"name" : "atv10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listas_logica_programacao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listas_logica_programacao-Debug-f42125c91b074569cd64.json",
+					"name" : "listas_logica_programacao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teste-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teste-1-Debug-2ef8f915dd136b0d21ad.json",
+					"name" : "teste-1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao/cmake-build-debug",
+		"source" : "C:/Users/Lucio Santana/Documents/workspace/listas-logica-programacao"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
